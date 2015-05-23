@@ -1,0 +1,5 @@
+.DS_Store
+.git
+rsync.sh
+rsync-exclude.txt
+sync-heroku.sh
