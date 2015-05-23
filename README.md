@@ -41,7 +41,7 @@ The third argument is the **relative** path to the `rsync-exclude.txt file`. (Th
 The final argument is the message to be used for both the Github and Heroku commits.
 
 ## Caveats
-`sync-heroku` does not `git pull` before committing. This should not be a problem if you are working on a project by yourself, but if other people are contributing to the sodebases, make sure your repositories are up to date before you use `sync-heroku`!
+`sync-heroku` does not `git pull` before committing. This should not be a problem if you are working on a project by yourself, but if other people are contributing to the codebases, make sure your repositories are up to date before you use `sync-heroku`!
 
 You can add/remove files to be excluded from sync by modifying the `rsync-exclude.txt` file. However, `.git` **must** always be part of this file; you do not want your Heroku git data to be overwritten with your Github git data!
 
